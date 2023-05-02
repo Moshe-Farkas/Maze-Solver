@@ -1,0 +1,51 @@
+
+separate things:
+    ability to draw a start point, end point, wall and remove blocks
+    select different algorithms to solve the maze
+    set the MazeSolver object's solving strategy to the requested algorithm
+    get the MazeSolution object from the MazeSolver.solve()
+
+    the window should be able to display JUST the solution,
+    and it should be able to draw each decision by a specified interval
+
+
+
+MazeSolution:
+    should be a data structure, no methods
+
+    coordinate[] plain solution
+    amount of steps to solve
+    length of solution
+
+
+Board:
+    +clearBoard()
+    +getPieceAt()
+    +setPieceAt()
+    +changeBoardSize()
+
+
+mainScreen is a jpanel:
+    -boardPanel:jpanel
+    -algorithmSelectComboBox
+
+
+
+specific state behaviour is:
+draw blocks (on showing solution state this does nothing)
+remove nodes (on showing solution state this only removes solution blocks)
+clear (on insert state this clears entire board, on showing solution state this removes only the solution)
+
+need to separate the onEvent methods from the state specific behaviour
+onEvent methods decides which methods to call and those methods delegate those methods to it's current state
+
+
+
+node selector needs:
+    -
+
+
+
+
+
+
