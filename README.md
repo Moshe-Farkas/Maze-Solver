@@ -5,9 +5,9 @@ when in drawing mode, right-click/drag to place wall nodes, shift+right-click to
 When in solution showing mode 'c' to clear solution.
 
 # Algorithms So Far:
--DFS\
--BFS\
--Bi-Directional BFS\
--Dijsktra\
--A*\
+-DFS  
+-BFS  
+-Bi-Directional BFS  
+-Dijsktra  
+-A*  
 To add a new algorithm you need to extend to MazeAlgorithm.java interface and implement the solve method, add algorithm choose menu option and add case in MazeFactory.java
