@@ -1,10 +1,10 @@
 ![show case gif](showcase.gif)
 
-#Usage:
+# Usage:
 when in drawing mode, right-click/drag to place wall nodes, shift+right-click to remove nodes and 'c' to clear whole board.
 When in solution showing mode 'c' to clear solution.
 
-#Algorithms So Far:
+# Algorithms So Far:
 -DFS
 -BFS
 -Bi Directional BFS
